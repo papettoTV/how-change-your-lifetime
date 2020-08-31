@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-form inline>
+    <!-- <b-form inline>
       <label>変わったこと</label>
       <b-input
         id="item"
@@ -11,16 +11,25 @@
       <b-input id="change-time" placeholder="例）-1.5"></b-input>
       <b-icon-plus-circle></b-icon-plus-circle>
     </b-form>
-    <b-button variant="primary">Save</b-button>
+    <b-button variant="primary">Save</b-button> -->
+
+    <v-app>
+      <div>
+        <v-icon>mdi-plus-circle-outline</v-icon>
+      </div>
+      <div>
+        <v-btn small color="primary">Save</v-btn>
+      </div>
+    </v-app>
   </div>
 </template>
 
 <script>
-import { BIconPlusCircle } from 'bootstrap-vue'
+// import { BIconPlusCircle } from 'bootstrap-vue'
 
-export default {
-  components: {
-    BIconPlusCircle,
-  },
-}
+// export default {
+//   components: {
+//     BIconPlusCircle,
+//   },
+// }
 </script>
